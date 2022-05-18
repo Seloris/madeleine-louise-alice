@@ -2,5 +2,5 @@
 module.exports = {
   reactStrictMode: true,
   assetPrefix:
-    'https://cdn.statically.io/gh/Seloris/naveenda.github.io/gh-pages/',
+    'https://cdn.statically.io/gh/seloris/madeleine-louise-alice/gh-pages/',
 }
