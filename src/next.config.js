@@ -1,9 +1,6 @@
-const isProd = process.env.NODE_ENV === 'production'
-
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd
-    ? 'https://cdn.statically.io/gh/Seloris/naveenda.github.io/gh-pages/'
-    : '',
+  assetPrefix:
+    'https://cdn.statically.io/gh/Seloris/naveenda.github.io/gh-pages/',
 }
