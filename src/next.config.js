@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+
+// console.log('TOTO => ' + process.env.ENV)
 module.exports = {
   reactStrictMode: true,
   assetPrefix:

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['bebas-kai', 'sans-serif'],
+        heading: ['nimbus-sans', 'sans-serif'],
         body: ['bebas-kai', 'sans-serif'],
       },
       colors: {
