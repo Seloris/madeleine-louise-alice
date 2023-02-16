@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/design-graphique.js"
+    ],
+    "/design-graphique/kjw": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/design-graphique/kjw.js"
     ]
   },
   "ampFirstPages": []

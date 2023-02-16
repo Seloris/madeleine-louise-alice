@@ -1,12 +1,13 @@
 import type { NextPage } from 'next'
 import { useState } from 'react'
+import { ProjectGrid } from '../components/project-grid'
 import { Link } from '../models'
 
 const DesignGraphique: NextPage = () => {
   const [projectRows, setProjectRows] = useState<Row[]>([
     {
       projects: [
-        { label: 'KJW', link: '/kjw', fontSize: '4.1em' },
+        { label: 'KJW', link: '/design-graphique/kjw', fontSize: '4.1em' },
         { label: 'Éternel Parisien', link: '/ep', fontSize: '4.1em' },
       ],
     },
@@ -28,28 +29,7 @@ const DesignGraphique: NextPage = () => {
     },
   ])
 
-  return (
-    <div className="flex flex-1 flex-col items-center justify-center text-green">
-      {projectRows.map((row, i) => {
-        return (
-          <div
-            key={i}
-            className={`flex flex-row flex-wrap justify-between leading-none`}
-          >
-            {row.projects.map((project) => (
-              <div
-                key={project.link}
-                className="mx-3 uppercase"
-                style={{ fontSize: project.fontSize }}
-              >
-                {project.label}
-              </div>
-            ))}
-          </div>
-        )
-      })}
-    </div>
-  )
+  return <ProjectGrid projectRows={projectRows}></ProjectGrid>
 }
 
 interface Row {

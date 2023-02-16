@@ -29,7 +29,7 @@ export const Header = () => {
     <div className="flex w-full flex-row p-4">
       <Logo />
       <div className="flex-1"></div>
-      <div className="flex flex-row font-heading">
+      <div className="flex flex-row font-heading text-xl">
         {links.map((link) => {
           const isActiveClass =
             router.pathname === link.link ? 'text-green' : ''

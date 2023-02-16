@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/design-graphique": "pages/design-graphique.js"
+  "/design-graphique": "pages/design-graphique.js",
+  "/design-graphique/kjw": "pages/design-graphique/kjw.js"
 }
